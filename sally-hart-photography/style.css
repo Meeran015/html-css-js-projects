@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 16px;
+  background-color: #004d9d;
+  color: #ffffff;
+}
+
+a {
+  /* color for links */
+  color: #ffffff;
+  /* removes underline */
+  text-decoration: none;
+}
+
+a:hover{
+  color: #90ee90;
+}
+section {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+footer a {
+  margin-right: 5px;
+}
+
+.image_1{
+  background-image: url(./assets/sally_1.jpg);
+}
+.image_2{
+  background-image: url(./assets/sally_2.jpg);
+}
+.image_3{
+  background-image: url(./assets/sally_3.jpg);
+}
+.image_4{
+  background-image: url(./assets/sally_4.jpg);
+}

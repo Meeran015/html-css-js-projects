@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  color: #ffffff;
+  background-image: url(./assets/background.svg);
+  /* background-repeat: no-repeat; */
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+nav {
+  background-color: #f05d5d;
+  padding: 20px 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+nav a:hover {
+  color: #5000ff;
+  border-bottom: solid 2px #ffffff;
+}
+section {
+  background-color: #5000ff;
+  padding: 40px;
+}
+h2 {
+  line-height: 1.2;
+}
+.fullbleed {
+  width: inherit;
+  padding: 0;
+}
+.fullbleed img {
+  width: 100%;
+  height: 100%;
+}
+
+blockquote {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.map {
+  width: 100%;
+}
+
+.contact p {
+  margin-top: 20px;
+}
+
+.contact a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: solid 2px;
+  border-color: #f05d5d;
+  padding-bottom: 1px;
+}
+
+@media (max-width: 720px) {
+  section,
+  header {
+    padding: 20px;
+  }
+  nav {
+    padding: 10px 20px;
+  }
+  h2,
+  blockquote {
+    font-size: 24px;
+  }
+  body {
+    padding-top: 0;
+    font-size: 16px;
+  }
+  nav a{
+    display: block;
+  }
+  nav a:hover{
+    border: none;
+  }
+  blockquote{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.author{
+  color: rgba(55, 0, 255, 0.685);
+}
+@media (min-width:1000px){
+  body{
+    font-size: 22px;
+  }
+}
+
+@media(minwidth:2000px){
+  body{
+    font-size: 26px;
+  }
+  section{
+    padding: 60px;
+  }
+}
